@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="icon" href="https://media.licdn.com/dms/image/v2/D5603AQGj_cmFMJHhUA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724249133716?e=2147483647&v=beta&t=ODwcElMKSD3dZS6E4UB-l1m33o4AKypp3O7kQha-hsE">
+    <title>Nandhana Rajendran</title>
+</head>
+<body>
+    
+    <main>
+        <aside>
+            <ul class="Links">
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </li>
+                <li onclick="Navigate(1)"><i class="fa-solid fa-user" ></i>
+                    <p>About Me</p>
+                </li>
+                <li onclick="Navigate(2)"><i class="fa-solid fa-list"></i>
+                    <p>Projects</p>
+                </li>
+               
+                <li onclick="Navigate(3)"><i class="fa-solid fa-comments"></i>
+                    <p>Contact Me</p>
+                </li>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Hi! I'm <span class="stylized-name">Nandhana Rajendran</span>,</h1>
+                        <h2><span class="proffesions">Computer Science Engineering Student</span></h2>
+                        <p class="heroline">GEC IDUKKI</p>
+                        <div class="buttonGroup"><button onclick="Navigate(3)">Hire Me</button><button onclick="Navigate(3)">Contact Me</button></div>
+                    </div>
+                    <div class="SideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="https://media.licdn.com/dms/image/v2/D5603AQGj_cmFMJHhUA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724249133716?e=2147483647&v=beta&t=ODwcElMKSD3dZS6E4UB-l1m33o4AKypp3O7kQha-hsE" alt="">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">Scroll for next slide <i class="fa-solid fa-chevron-right fa-shake"></i>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="about-us">
+                    <h1 class="heading">About Me</h1>
+                    <h3 class="sub-heading">I'm Nandhana Rajendran, <span class="proffesions">A 2nd-year BTech CSE student</span></h3>
+                    <p class="aboutme-deatils">
+                        passionate about technical field. 
+                    </p>
+                    <div class="about-me-divison">
+                        <div class="about-me-table">
+                           
+                            <li><span>Country:</span> India</li>
+                            
+                            
+                            <li><span>Age</span>:20</li>
+                            <li><span>Phone</span>:+91-99478-49005</li>
+                           
+                            <li><span>Degree</span>:BTech-CSE</li>
+                            <div class="buttonGroup"><button onclick="Navigate(3)">Hire Me</button><button onclick="Navigate(3)">Contact Me</button></div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <li>
+                                <p>HTML</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:80%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>CSS</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:60%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>JavaScript</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:35%"></div>
+                                </div>
+                            </li>
+                           
+                        </div>
+                    </div>
+                </div></div>
+                <div class="swiper-slide services">
+
+                    <h1 class="heading">Projects</h1>
+                    <div class="service">
+                       <a href="https://navyamariamjohn.github.io/Axon/" style="text-decoration: none; font-size: 0.75em;"><h2>Web-based Personal Tutor (Hackathon Project)</h2></a> 
+                    </div>
+                    
+                    <div class="service">
+                        <a href="https://nandhanarajendran.github.io/FacebookFrontPage/" style="text-decoration: none; font-size: 0.75em;"><h2>Facebook Front Page</h2></a> 
+                     </div>
+                    
+                </div>
+               
+                <div id="contact" class="swiper-slide contactMe">
+                    <h1 class="heading">Contact Me</h1>
+                    <div class="contactinfo">
+                        <h3>Mobile No</h3>
+                        <p>+91-99478-49005</p>
+                    </div>
+                    <div class="contactinfo">
+                        <h3>Location</h3>
+                        <p>Kerala,India</p>
+                    </div>
+                    <div class="contactinfo" >
+                        <h3>Email</h3>
+                        <p style="font-size: 0.75em;">nandhanarajendran2004@gmail.com</p>
+                    </div>
+                    
+                    <form>
+                        <h2>Send Me A Message <div class="SocialLinks">
+                            <a href="https://www.linkedin.com/in/nandhana-rajendran-581332304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <i class="fa-brands fa-linkedin"></i></a>    
+                            <a href="https://x.com/Nandhana_PR_?t=JYa28MVkNIq2ptMJVej4LA&s=09"><i class="fa-brands fa-twitter"></i></a>
+                                
+                                
+                            <a href="https://www.instagram.com/crazy_psyche_?igsh=MW05ZnFhOGg3ZTkzdg=="><i class="fa-brands fa-instagram"></i></a> 
+                            </div>
+                        </h2>
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="email">
+                        <textarea rows="5" placeholder="Type your Message Here..."></textarea>
+                        <button class="primary">Send</button>
+
+                    </form>
+                    <footer>
+                        <li>Copyright © 2025 Nandhana.</li>
+                    </footer>
+                </div>
+            </div>
+    </main>
+
+</body>
+</html>
